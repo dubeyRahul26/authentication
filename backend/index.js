@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://authentication-system-q82x.onrender.com"],  // Allow both local and deployed frontend
+  origin: ["http://localhost:5173", "https://authentication-mbj2.onrender.com"],  // Allow both local and deployed frontend
   credentials: true
 }));
 

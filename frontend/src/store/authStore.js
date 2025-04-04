@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 
 // Load API URL from .env file
-const API_URL = "https://authentication-mbj2.onrender.com/api" || "http://localhost:5000/api/auth";
+const API_URL = "https://authentication-mbj2.onrender.com/api/auth" || "http://localhost:5000/api/auth";
 console.log("✅ API_URL:", API_URL); // Debugging
 
 axios.defaults.withCredentials = true;
